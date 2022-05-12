@@ -1,7 +1,7 @@
 {
   "name": "adminer-node",
   "version": "1.0.8",
-  "description": "Run adminer DB client in node",
+  "description": "adminer",
   "main": "server.js",
   "bin": {
     "adminer-node": "./bin/adminer-node",
@@ -20,7 +20,5 @@
   "scripts": {
     "install": "node install.js",
     "start": "node server.js"
-  },
-  "author": "Desmond Kyeremeh <elDekyfin@gmail.com>",
-  "license": "ISC"
+  }
 }
